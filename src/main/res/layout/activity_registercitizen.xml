@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/REGISTRATION"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        >
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:hint="@string/AADHARID"
+            android:inputType="number"
+            android:id="@+id/aadharID"
+            />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle" />
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:layout_marginTop="10dp"
+            android:hint="@string/VOTERID"
+            android:inputType="text"
+            android:id="@+id/voterID"
+            />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle" />
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:layout_marginTop="10dp"
+                android:id="@+id/userName"
+                android:hint="@string/USERNAME"
+                android:inputType="text"
+                />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle" />
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:layout_marginTop="10dp"
+                android:id="@+id/password"
+                android:hint="@string/PASSWORD"
+                android:inputType="textPassword" />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle" />
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:layout_marginTop="10dp"
+            android:hint="@string/CONFIRM_PASSWORD"
+            android:id="@+id/confirmPassword"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle" />
+
+        <EditText
+                style="@style/EditTextStyle"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mail"
+                android:hint="@string/EMAIL_ADDRESS"
+                android:inputType="textEmailAddress"
+                />
+
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle" />
+
+            <EditText
+                style="@style/EditTextStyle"
+                android:layout_marginTop="10dp"
+                android:id="@+id/mobile"
+                android:hint="@string/MOBILE_NUMBER"
+                android:inputType="phone"
+                />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:text="@string/SIGNUP"
+            android:layout_marginTop="30dp"
+            android:onClick="registerCitizen"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:clipToPadding="false"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="@string/GRIEVANCE_DETAILS"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/WARD"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp"
+            android:textColorHint="@color/secondary_text"
+            android:textColor="@color/primary_text"
+            android:onClick="selectWard"
+            android:clickable="true"
+            android:id="@+id/ward"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/CATEGORY"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp"
+            android:textColorHint="@color/secondary_text"
+            android:textColor="@color/primary_text"
+            android:onClick="selectCategory"
+            android:clickable="true"
+            android:id="@+id/category"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <LinearLayout
+            style="@style/LinearLayoutStyle"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/description"
+            android:hint="@string/DESCRIPTION"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            />
+        <LinearLayout
+            style="@style/LinearLayoutStyle"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/RATE_GRIEVANCE"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16sp"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/IMMEDIATE_ACTION"
+                android:id="@+id/five"
+                android:checked="true"
+                />
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/WORSE"
+                android:id="@+id/four"
+                />
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/BAD"
+                android:id="@+id/three"
+                />
+
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/POOR"
+                android:id="@+id/two"
+                />
+            <RadioButton
+                style="@style/RadioButtonStyle"
+                android:text="@string/AVERAGE"
+                android:id="@+id/one"
+                />
+        </RadioGroup>
+        <LinearLayout
+            style="@style/LinearLayoutStyle"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/PHOTO"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp"
+            android:textColorHint="@color/primary_text"
+            android:textColor="@color/primary_text"
+            android:onClick="selectPhoto"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:id="@+id/icon"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="@string/POST"
+            android:onClick="postGrievance"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

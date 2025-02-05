@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Citizen Grievance Lodging and Redressal</string>
+    <string name="APP_NAME">Citizen Grievance Lodging and Redressal</string>
+    <string name="VERSION">Ver 1.0.0</string>
+    <string name="LOADING">Loading...</string>
+    <string name="WELCOME">Welcome to Citizen Grievance Lodging and Redressal</string>
+    <string name="SELECT_USER">Select User</string>
+    <string name="ADMIN">Ward Incharge</string>
+    <string name="CITIZEN">Citizen</string>
+    <string name="SUBMIT">Submit</string>
+    <string name="USERNAME">Enter Username</string>
+    <string name="PASSWORD">Enter Password</string>
+    <string name="LOGIN">Login</string>
+    <string name="LOGOUT">Logout</string>
+    <string name="ABOUT_US">About</string>
+    <string name="REGISTER"><u>No account yet... Register Citizen</u></string>
+    <string name="AADHARID">Enter Aadhar ID</string>
+    <string name="REGISTRATION">Registration</string>
+    <string name="VOTERID">Enter Voter ID</string>
+    <string name="CONFIRM_PASSWORD">Confirm Password</string>
+    <string name="EMAIL_ADDRESS">Enter mail ID</string>
+    <string name="MOBILE_NUMBER">Enter mobile number</string>
+    <string name="SIGNUP">Register</string>
+    <string name="POST">Post Complaint</string>
+    <string name="VIEW">View All Complaints</string>
+    <string name="VIEW_PENDING">View Open Complaints</string>
+    <string name="GRIEVANCE_DETAILS">Complaint Details</string>
+    <string name="WARD">Select Ward</string>
+    <string name="CATEGORY">Select Category</string>
+    <string name="DESCRIPTION">Enter Description</string>
+    <string name="PHOTO">Select Photo</string>
+    <string name="NEWS">Post News</string>
+    <string name="LABEL_WARD">Ward:</string>
+    <string name="LABEL_CATEGORY">Category:</string>
+    <string name="GRIEVANCE_DATE">Date:</string>
+    <string name="UPDATE_STATUS">Update Status</string>
+    <string name="LABEL_DESCRIPTION">Description:</string>
+    <string name="LABEL_USERNAME">Citizen:</string>
+    <string name="LABEL_AADHARID">Aadhar ID</string>
+    <string name="STATUS">Status</string>
+    <string name="ALL_GRIEVANCES">All Complaints</string>
+    <string name="RATE_GRIEVANCE">Rate Complaint:</string>
+    <string name="ZERO">0</string>
+    <string name="ONE">1</string>
+    <string name="TWO">2</string>
+    <string name="THREE">3</string>
+    <string name="FOUR">4</string>
+    <string name="FIVE">5</string>
+    <string name="UNACCEPTABLE">Unacceptable</string>
+    <string name="WORSE">Worse</string>
+    <string name="POOR">Poor</string>
+    <string name="BELOW_AVERAGE">Below Average</string>
+    <string name="AVERAGE">Average</string>
+    <string name="BAD">Bad</string>
+    <string name="MY_GRIEVANCES">My Complaints</string>
+    <string name="NOTICE_BOARD">Notice Board</string>
+    <string name="GRIEVANCES_OF_OTHER_CITIZENS">Complaints of Other Citizens</string>
+    <string name="LABEL_TITLE">Title</string>
+    <string name="TITLE">Enter title here</string>
+    <string name="ENTER_DESCRIPTION">Enter description here</string>
+    <string name="POST_NEWS">Post</string>
+    <string name="IMMEDIATE_ACTION">Immediate Action</string>
+    <string name="NEWS_TITLE">News</string>
+    <string name="SELECT_RATING">Select Rating</string>
+    <string name="OK">Ok</string>
+    <string name="Rating">Rating:</string>
+    <string name="REPORTS">Reports</string>
+    <string name="REPORT_TYPE">Pie Chart based on:</string>
+    <string name="CATEGORY_TYPE">Category</string>
+    <string name="STATUS_TYPE">Status</string>
+    <string name="RATING_TYPE">Rating</string>
+    <string name="VIEW_REPORT">View Report</string>
+    <string name="OPEN_COMPLAINTS">Open Complaints</string>
+    <string name="NO_OPEN_COMPLAINTS">There are no open complaints</string>
+    <string name="SEARCH">Search Complaint</string>
+    <string name="GRIEVANCE_ID">Complaint ID:</string>
+    <string name="ENTER_ID">Enter Complaint ID</string>
+
+    <string-array name="wards">
+        <item>WARD001</item>
+        <item>WARD002</item>
+        <item>WARD003</item>
+        <item>WARD004</item>
+        <item>WARD005</item>
+    </string-array>
+
+    <string-array name="grievance_category">
+        <item>Roads</item>
+        <item>Street Lights</item>
+        <item>Garbage</item>
+        <item>Drainage</item>
+        <item>Water</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string-array name="grievance_status">
+        <item>New</item>
+        <item>Open</item>
+        <item>Pending</item>
+        <item>Resolved</item>
+        <item>Closed</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>#f5a1a1</item>
+        <item>#95fd95</item>
+        <item>#9c9cf7</item>
+        <item>#ffde9c</item>
+        <item>#fa9ef1</item>
+        <item>#91f7ee</item>
+
+    </string-array>
+</resources>
